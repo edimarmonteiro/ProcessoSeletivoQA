@@ -18,10 +18,10 @@ class QASelectionProcess:
             time.sleep(5)
 
             email_input = self.driver.find_element(By.XPATH, '//input[@placeholder="E-mail"]')
-            email_input.send_keys("edimarfreelancer@gmail.com")
+            email_input.send_keys("vivienne565@uorak.com")
 
             password_input = self.driver.find_element(By.XPATH, '//input[@placeholder="Senha"]')
-            password_input.send_keys("#EDIMARpires17")
+            password_input.send_keys("#123#123QA")
 
             login_button = self.driver.find_element(By.XPATH, '//button[text()="Acessar"]')
             login_button.click()
@@ -56,7 +56,7 @@ class QASelectionProcess:
             name_input.send_keys("Edimar Monteiro")
 
             email_input = self.driver.find_element(By.XPATH, '//input[@placeholder="E-mail"]')
-            email_input.send_keys("edimarfreelancer@gmail.com")
+            email_input.send_keys("vivienne565@uorak.com")
 
             phone_input = self.driver.find_element(By.XPATH, '//input[@placeholder="Telefone"]')
             phone_input.send_keys("(99)912345678")
@@ -65,10 +65,10 @@ class QASelectionProcess:
             birthdate_input.send_keys("2000-01-10")
 
             password_input = self.driver.find_element(By.XPATH, '//input[@placeholder="Senha"]')
-            password_input.send_keys("#EDIMARpires17")
+            password_input.send_keys("#123#123QA")
 
             confirm_password_input = self.driver.find_element(By.XPATH, '//input[@placeholder="Confirme a senha"]')
-            confirm_password_input.send_keys("#EDIMARpires17")
+            confirm_password_input.send_keys("#123#123QA")
 
             terms_checkbox = self.driver.find_element(By.NAME, "connection")
             if not terms_checkbox.is_selected():
